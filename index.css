@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Sacramento&display=swap');
+
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #513c50;
+  background: #fff9fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --pink: #e99bb9;
+  --deep-pink: #bd6e92;
+  --lavender: #dcd2f5;
+  --ink: #513c50;
+  --muted: #8d788a;
+  --cream: #fffaf0;
+  --gold: #c7a76b;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+body { margin: 0; min-width: 320px; }
+button, textarea { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible, textarea:focus-visible { outline: 3px solid #b889db; outline-offset: 4px; }
+a { color: inherit; }
+::selection { background: #f6d6e4; color: #513c50; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+}
